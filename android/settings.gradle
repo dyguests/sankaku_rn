@@ -1,0 +1,3 @@
+rootProject.name = 'sankaku_rn'
+
+include ':app'
