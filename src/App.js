@@ -21,7 +21,7 @@ let MOCKED_MOVIES_DATA = [
 
 export default class App extends Component<Props> {
     render() {
-        var movie = MOCKED_MOVIES_DATA[0];
+        let movie = MOCKED_MOVIES_DATA[0];
         return (
             <View style={styles.container}>
                 <Text>{movie.title}</Text>
@@ -32,7 +32,7 @@ export default class App extends Component<Props> {
     }
 }
 
-var styles = StyleSheet.create({
+const styles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: "center",
@@ -44,3 +44,4 @@ var styles = StyleSheet.create({
         height: 81
     }
 });
+
