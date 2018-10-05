@@ -11,7 +11,7 @@ import {createStackNavigator} from 'react-navigation';
 import MainScreen from "./ui/main/MainScreen";
 
 const App = createStackNavigator({
-    Home: {screen: MainScreen},
+    Main: {screen: MainScreen},
     // Profile: {screen: ProfileScreen},
 });
 
